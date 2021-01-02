@@ -78,3 +78,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ### Responsive Design 2
 
 ![Responsive Design 2](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/10.png)
+
+### Realtime coding
+
+![Realtime coding](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/12.png)
+
