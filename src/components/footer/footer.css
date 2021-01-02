@@ -1,0 +1,41 @@
+.footer {
+  background-color: #582233;
+  color: white;
+  line-height: 25px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-contacts {
+  margin-top: 40px;
+  align-items: center;
+  background-color: #c03546;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.social-links {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.social-contacts a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-contacts {
+  font-size: 20px;
+}
+
+.footer i {
+  font-size: 15px;
+  margin-right: 10px;
+}

@@ -1,0 +1,19 @@
+.settings {
+  display: flex;
+  background-color: #582233;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.select-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}
+
+select {
+  margin-left: 10px;
+  width: 40%;
+}

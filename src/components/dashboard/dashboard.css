@@ -1,0 +1,67 @@
+.dashboard {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dashboard-btns {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-left: 10%;
+}
+
+.dashboard-btns h5 {
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(136, 37, 37);
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.join-btn,
+.create-btn {
+  background-color: black;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.join {
+  width: 70%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create {
+  width: 30%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  width: 80%;
+}
+
+.dashboard-img {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-img img {
+  margin-left: 20%;
+  width: 100%;
+  height: auto;
+  align-self: center;
+  margin-right: 20px;
+}

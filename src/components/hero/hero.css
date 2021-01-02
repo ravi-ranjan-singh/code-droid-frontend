@@ -1,0 +1,33 @@
+.hero-heading,
+.hero-subheading {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 200;
+}
+
+.hero-heading {
+  color: #d3d3d3;
+  font-size: 35px;
+}
+
+.hero-subheading {
+  color: rgb(128, 128, 128);
+  font-size: 20px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.hero-img {
+  margin-left: 3%;
+  width: 35%;
+}
+
+.hero-img img {
+  width: 100%;
+  height: auto;
+}

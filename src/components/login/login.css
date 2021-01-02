@@ -1,0 +1,47 @@
+.login {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .card {
+  width: 60%;
+  height: 50vh;
+}
+
+.login .card-content {
+  width: 100%;
+  display: flex;
+  padding: 0px !important;
+}
+
+.login .login-icon {
+  width: 50%;
+  background-color: #582233;
+  clip-path: polygon(0 0, 100% 0, 82% 100%, 0 100%);
+}
+
+.login .form-section {
+  padding: 30px;
+  width: 50%;
+}
+
+.login-btn {
+  background-color: #c94e4e;
+  margin-top: 20px;
+}
+
+.login-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 35px;
+}
+
+.login-icon img {
+  width: 60%;
+  height: auto;
+}

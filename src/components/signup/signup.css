@@ -1,0 +1,22 @@
+.sign-up {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding-top: 30px;
+}
+
+.sign-up h5 {
+  text-transform: uppercase;
+  color: black;
+}
+
+.sign-up-form {
+  width: 80%;
+}
+
+.sign-btn {
+  background-color: #c94e4e;
+  margin-top: 20px;
+}
