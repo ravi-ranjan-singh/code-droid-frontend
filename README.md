@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Code Droid
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Link [Code Droid](https://code-droid.netlify.app/).
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+Code Droid is web App which allow multiple people to write code in same IDE in realtime and see the code in realtime. It also allow you to compile code at the same time and output of the code also show in realtime to all the users connected to the same IDE
 
-### `npm start`
+## Running the project
 
-Runs the app in the development mode.\
+To run the App download the code of both [backend](https://github.com/ravi-ranjan-singh/code-droid-backend) and frontend and run following command in terminal in both the project folder.
+
+```
+npm install
+npm start
+```
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
 
-### `npm test`
+- User Friendly Interface
+- Support 4 languages currently Java , Javascript, Python, C++ with different versions of Python and C++.
+- Real time code sharing and Editing
+- Code compilations with custom input
+- Isolated IDE environment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Use Case
 
-### `npm run build`
+**It can be used by different peoples such as students, teachers, interviewers.**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Students : Provide an environment to write and practice code.
+- Teachers : To teach code to students.
+- Interviewers: To take interview of the candidates
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Images
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Home Screen
 
-### `npm run eject`
+![Home Screen](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/1.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Home screen 2
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Home Screen 2](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/8.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Login Screen
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Login Screen](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/2.png)
 
-## Learn More
+### Front end Validation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Front end Validation](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/3.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Back end Validation
 
-### Code Splitting
+![Back End Validation](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/11.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Dashboard
 
-### Analyzing the Bundle Size
+![Dashboard](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/4.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### IDE
 
-### Making a Progressive Web App
+![IDE](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/5.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### IDE with code
 
-### Advanced Configuration
+![IDE with code](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/6.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Not Found
 
-### Deployment
+![Not Found](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/7.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Responsive Design
 
-### `npm run build` fails to minify
+![Responsive Design](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/9.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Responsive Design 2
+
+![Responsive Design 2](https://github.com/ravi-ranjan-singh/code-droid-frontend/raw/main/Images/10.png)
