@@ -32,7 +32,8 @@ export const compileCodeHelper = (
   code,
   setting,
   stdin,
-  setStdop
+  setStdop,
+  btnRef
 ) => async () => {
   const data = {
     script: code,
@@ -41,11 +42,13 @@ export const compileCodeHelper = (
     stdin,
   };
   try {
+    btnRef.current.disabled = true;
     const { data: res } = await axios.post(`${apiEndpoint}/compile`, data, {
       headers: {
         Authorization: `Bearer ${localStorage.getItem('jwt')}`,
       },
     });
+    btnRef.current.disabled = false;
     socket.emit('stdout', { output: res.data.output, room });
     setStdop(res.data.output);
   } catch (error) {
@@ -102,4 +105,13 @@ export const validateEmptyField = (data) => {
     }
   }
   return true;
+};
+
+export const copyHandler = (tooltipRef) => {
+  document.querySelector('#copy-area').select();
+  document.execCommand('copy');
+  tooltipRef.current.dataset.tooltip = 'Copied';
+  setTimeout(() => {
+    tooltipRef.current.dataset.tooltip = 'Copy IDE Joining Link';
+  }, 1000);
 };

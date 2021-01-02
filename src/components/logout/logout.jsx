@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 const LogOut = () => {
   useEffect(() => {
-    localStorage.setItem('jwt', '');
+    localStorage.removeItem('jwt');
     localStorage.removeItem('userName');
     window.location = '/';
   }, []);

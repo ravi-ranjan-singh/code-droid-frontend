@@ -6,3 +6,12 @@ nav {
   background-color: #430d27;
 }
 
+.sidenav-trigger {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.sidenav-trigger:hover {
+  background-color: transparent !important;
+}

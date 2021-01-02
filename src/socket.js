@@ -5,7 +5,8 @@ const socketHandler = (
   setStdop,
   setSetting,
   setting,
-  query
+  query,
+  setTyping
 ) => () => {
   console.log('connected');
   socket.emit('join', query.id);
@@ -23,7 +24,9 @@ const socketHandler = (
     newSetting['lang'] = value;
     setSetting(newSetting);
   });
-  socket.on('typing', (name) => console.log(`${name} is typing`));
+  socket.on('typing', (name) => {
+    setTyping(name);
+  });
 };
 
 export default socketHandler;

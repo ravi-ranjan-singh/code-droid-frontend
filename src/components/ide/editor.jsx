@@ -1,7 +1,7 @@
 import AceEditor from 'react-ace';
 import './editor_setup';
 
-const Editor = ({ def_set, onCodeChange, code }) => {
+const Editor = ({ def_set, onCodeChange, code, typing }) => {
   return (
     <div className="code-area">
       <div className="editor-head">
@@ -26,6 +26,11 @@ const Editor = ({ def_set, onCodeChange, code }) => {
         theme={def_set.theme.code}
         editorProps={{ $blockScrolling: true }}
       />
+      <div className="typing-name-area">
+        <h6>
+          <strong>{typing ? `${typing.toUpperCase()} is coding` : ''}</strong>
+        </h6>
+      </div>
     </div>
   );
 };

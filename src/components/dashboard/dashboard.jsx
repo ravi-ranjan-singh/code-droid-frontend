@@ -42,8 +42,3 @@ const DashBoard = ({ history }) => {
 };
 
 export default DashBoard;
-
-//<img src={ideImg} alt="ide" />
-//       <h5>
-//         <strong>User Friendly IDE</strong>
-//        </h5>

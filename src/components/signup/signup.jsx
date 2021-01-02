@@ -8,7 +8,7 @@ const nameInput = createRef();
 const emailInput = createRef();
 const passwordInput = createRef();
 const passwordConfirmInput = createRef();
-
+const btnRef = createRef();
 const SignUp = ({ history }) => {
   const handleSignUpClick = async (e) => {
     e.preventDefault();
@@ -18,7 +18,9 @@ const SignUp = ({ history }) => {
     const passwordConfirm = passwordConfirmInput.current.value;
     const data = { name, email, password, passwordConfirm };
     if (!validateEmptyField(data)) return;
+    btnRef.current.disabled = true;
     sendDataToServer(data, 'signup');
+    btnRef.current.disabled = false;
   };
   return (
     <div className="sign-up">
@@ -54,7 +56,7 @@ const SignUp = ({ history }) => {
           name="passwordConfirm"
           ref={passwordConfirmInput}
         />
-        <Button cls="sign-btn" text="Start Coding" />
+        <Button cls="sign-btn" text="Start Coding" ref={btnRef} />
       </form>
     </div>
   );

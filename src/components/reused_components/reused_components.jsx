@@ -1,3 +1,4 @@
+import { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
 export const NavBarLinks = ({ path, text }) => {
   return (
@@ -26,10 +27,14 @@ export const ExternalLinks = ({ path, iconName }) => {
   );
 };
 
-export const Button = ({ cls, text, handler }) => {
+export const Button = forwardRef(({ cls, text, handler }, ref) => {
   return (
-    <button className={`waves-light btn-large ${cls}`} onClick={handler}>
+    <button
+      className={`waves-light btn-large ${cls}`}
+      onClick={handler}
+      ref={ref}
+    >
       {text}
     </button>
   );
-};
+});

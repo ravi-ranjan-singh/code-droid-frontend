@@ -9,6 +9,8 @@ import loginIcon from './../../assets/coding.png';
 const emailInput = createRef();
 const passwordInput = createRef();
 
+const btnRef = createRef();
+
 const Login = (props) => {
   const handleLoginClick = async (e) => {
     e.preventDefault();
@@ -23,7 +25,9 @@ const Login = (props) => {
       });
       return;
     }
+    btnRef.current.disabled = true;
     sendDataToServer(data, 'login', props.location.state);
+    btnRef.current.disabled = false;
   };
 
   return (
@@ -45,7 +49,7 @@ const Login = (props) => {
                 text="Password"
                 ref={passwordInput}
               />
-              <Button cls="login-btn" text="Login" />
+              <Button cls="login-btn" text="Login" ref={btnRef} />
             </form>
             <ul className="login-helper">
               <NavBarLinks path="/signup" text="New User" />
