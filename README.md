@@ -4,7 +4,7 @@ Live Link [Code Droid](https://code-droid.netlify.app/).
 
 ## About
 
-Code Droid is web App which allow multiple people to write code in same IDE in realtime and see the code in realtime. It also allow you to compile code at the same time and output of the code also show in realtime to all the users connected to the same IDE
+Code Droid is a web app that allows multiple people to write code in the same IDE in realtime and see the code in realtime. It also allows you to compile code at the same time and the output of the code also shows in real-time to all the users connected to the same IDE.
 
 ## Running the project
 
